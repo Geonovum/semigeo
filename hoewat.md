@@ -1,5 +1,13 @@
 # Hoe en wat
-Wat zou semantische harmonisatie concreet moeten betekenen, wat doen we dan? 
+Wat zou semantische harmonisatie concreet moeten betekenen, wat doen we dan en hoe pakken we dat aan? 
+
+## Kleine stapjes
+TODO Aanvullen o.b.v. presentatie van Friso op Trefdag Vlaanderen: 
+- geen big bang (uitleg waarom niet op slide 10)
+- slide 18 - wat als we niks doen?, en slide 19 als we wel wat doen
+- slide 20 en 21, 29 kleine stapjes
+- slide 26 en 27 expliciete samenhang in integratielaag. BIMs, SIMS en PIMs
+- slide 31 federatieve architectuur, niet alleen disgeo
 
 ## Denkrichtingen
 - Er zou een begrippenkader moeten komen met algemene, verbindende termen. 

@@ -40,7 +40,7 @@ Stel je daarbij zoiets voor:
     <figcaption>Stelselplaat Gegevens | Geo. 30 maart 2020 (<a href="https://www.digitaleoverheid.nl/document/stelselplaat-gegevens-geo/">Bron</a></figcaption>
 </figure>
 
-Deze semantische interoperabiliteit is nodig, omdat in het System of Engagement informatieproducten worden gemaakt, waarin data uit verschillende domeinen worden gecombineerd tot informatie. En uiteindelijk dus omdat steeds meer toepassingen informatie nodig hebben, die ontstaat uit geïntegreerde gegevens. 
+Deze semantische interoperabiliteit is nodig, omdat in het System of Engagement informatieproducten worden gemaakt, waarin data uit verschillende domeinen worden gecombineerd tot informatie. En uiteindelijk dus omdat steeds meer toepassingen informatie nodig hebben, die ontstaat uit geïntegreerde gegevens. Gebruikers hebben daarbij behoefte aan een gemeenschappelijke feitenbasis - een eenduidig beeld, zonder inconsistenties en met samenhang.
 
 ## Geometrie
 Dit integreren is lang niet altijd mogelijk op basis van de geometrie. Waarom niet? 
