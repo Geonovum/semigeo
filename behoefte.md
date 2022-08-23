@@ -40,4 +40,5 @@ In digitale tweelingen wordt data gecombineerd uit meestal zeer veel uiteenlopen
     <figcaption>Referentiearchitectuur digital twinning</figcaption>
 </figure>
 
-Kortom er zijn veel toepassingen voor geo-informatie. Vaak is er geen behoefte aan de data zoals die nu in silo's geregistreerd wordt en van daaruit ontsloten, maar aan geïntegreerde informatie op basis van verschillende bronnen. De basisregistraties zijn los van elkaar ontstaan en ontwikkeld. Nu de data er is wil men samenhang. Niet een stel registraties, maar een stelsel van registraties. 
+## Tot slot
+Kortom, er zijn veel toepassingen voor samenhangende geo-informatie. Vaak is er geen behoefte aan de data zoals die nu in silo's geregistreerd wordt en van daaruit ontsloten, maar aan geïntegreerde informatie op basis van verschillende bronnen. De basisregistraties zijn los van elkaar ontstaan en ontwikkeld. Nu de data er is wil men samenhang. Niet een stel registraties, maar een stelsel van registraties. 
