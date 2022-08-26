@@ -38,11 +38,10 @@ TODO beschrijven afstudeeronderzoek van Gabriella [Towards the linking of geospa
 TODO beschrijven [EMSO](https://docs.geostandaarden.nl/disgeo/emso/)
 
 ## DiSGeo High 5 serie
-TODO beschrijven; o.a. de constatering dat "governance op het snijvlak" nodig is.
 
 In het kader van DisGeo zijn meerdere onderzoeken uitgevoerd waar ook de semantische harmonisatie aan de orde kwam. Een aantal relvante bevindingen worden hier nogmaals aangestipt:
 
-[DiSGeo High 5 2019](https://docs.geostandaarden.nl/disgeo/dll/)
+### [DiSGeo High 5 2019](https://docs.geostandaarden.nl/disgeo/dll/)
 
 In dit onderzoek had een van de hoofdconclusies betrekking op de [samenhang tussen objecten](https://docs.geostandaarden.nl/disgeo/dll/#samenhang-tussen-objecten)
 
@@ -62,10 +61,10 @@ Daarnaast wer der nog een [overweging voor vervolg](https://docs.geostandaarden.
 De semantische relaties van de samenhangende objectenregistratie (opvolger van de stelselcatalogus, in ieder geval voor de geo-basisregistraties) moeten altijd gerelateerd zijn aan het semantische model van de datasets. Dit is een relatief eenvoudig te zetten stap die helpt om de orchestratielaag compact en beheersbaar te houden.
 
 
-[DiSGeo High 5 2020](https://docs.geostandaarden.nl/disgeo/dll2/)
+### [DiSGeo High 5 2020](https://docs.geostandaarden.nl/disgeo/dll2/)
 In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wederom geconstateerd dat het aan governance op de koppelvlakken ontbrak bj de use cases die gebruikt werden. Door verschil in definities was er bijvoorbeeld kans op mis-interpretaties.
 
-[DiSGeo High 5 2021](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/)
+### [DiSGeo High 5 2021](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/)
 Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang wordt gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
 Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
 
