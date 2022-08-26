@@ -6,7 +6,7 @@ Er is behoefte aan samenhangende gegevens vanuit verschillende hoeken. Dit hoofd
 In de hoofdlijnen van de inhoud van de samenhangende objectenregistratie zijn een aantal [algemene uitgangsunten](https://docs.geostandaarden.nl/disgeo/def-al-hiso-20200617/#algemene-uitgangspunten-samenhangende-objectenregistratie) geformuleerd. Het 2e uitgangspunt benadrukt het belang van semantische harmonie. 
 Dit is vervolgens als [ontwerpprincipe](https://docs.geostandaarden.nl/disgeo/emso/#definiering) opgenomen in het document met eisen aan het model van de samenhangewnde objectenregistratie.
 
-## Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities ##
+**Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities**
 
 Het is van groot belang dat de basis van een informatiemodel voor een samenhangende objectenregistratie wordt gevormd door een aantal onderling goed afgestemde en heldere definities. In de bestaande basisregistraties is daarvan momenteel niet altijd sprake. Hierdoor wordt de onderlinge koppelbaarheid van gegevens beperkt en laat de uniformiteit van de opgenomen gegevens (door interpretatieverschillen of in de definities opgenomen vrijheidsgraden) nogal eens te wensen over. Bij de verdere uitwerking van de inhoud van een samenhangende objectenregistratie worden bestaande definities daarom zodanig uitgebreid en geharmoniseerd dat:
 
