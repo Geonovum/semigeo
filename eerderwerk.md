@@ -74,5 +74,23 @@ Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/di
 
 
 
-## iGO
-TODO beschrijven [integrale gebruiksoplossing](https://labs.kadaster.nl/cases/integralegebruiksoplossing) Kadaster
+## IGO
+Er is in 2021 een eerste eenvoudige oplossing (MVP)door het Kadaster ontwikkeld voor
+integraal gebruik van de GEO basisregistraties, maar ook als voorproefje van de komende
+‘Objectenregistratie’ (SOR), een [integrale gebruiksoplossing](https://labs.kadaster.nl/cases/integralegebruiksoplossing)  vanwege het feit dat gebruikers steeds vaker en steeds meer behoefte hebben aan integraal
+gebruik van data uit verschillende basisregistraties. Dat blijkt uit alle onderzoeken,
+gebruikersoverleggen en dagelijkse contacten die men met gebruikers heeft. 
+Het Stelsel van basisregistraties is daar echter niet op ingericht, want data zitten verankerd
+in de specifieke registraties. Die ieder voor zich en op een andere manier
+bruikbaar zijn. M.a.w. niet de data, maar de registraties staan centraal.
+Omdat overheden voor veel processen toch integrale data nodig hebben,
+hebben ze oplossingen gebouwd voor specifiek integraal gebruik.
+Maar er zijn niet of nauwelijks oplossingen bebouwd voor generiek integraal
+gebruik.
+
+
+
+<figure>
+    <img alt="IGO - Integrale Gebruiks Oplossing" src="https://docs.geostandaarden.nl/disgeo/emso/media/igo.png">
+    <figcaption>Integrale Gebruiks Oplossing</figcaption>
+</figure>
