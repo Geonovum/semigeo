@@ -37,11 +37,40 @@ TODO beschrijven afstudeeronderzoek van Gabriella [Towards the linking of geospa
 ## DiS Geo: Eisen aan model samenhangende objectenregistratie
 TODO beschrijven [EMSO](https://docs.geostandaarden.nl/disgeo/emso/)
 
-## DiS Geo High 5 serie
+## DiSGeo High 5 serie
 TODO beschrijven; o.a. de constatering dat "governance op het snijvlak" nodig is.
 
-- [DiS Geo High 5 2019](https://docs.geostandaarden.nl/disgeo/dll/)
-- [DiS Geo High 5 2020](https://docs.geostandaarden.nl/disgeo/dll2/)
+In het kader van DisGeo zijn meerdere onderzoeken uitgevoerd waar ook de semantische harmonisatie aan de orde kwam. Een aantal relvante bevindingen worden hier nogmaals aangestipt:
+
+[DiSGeo High 5 2019](https://docs.geostandaarden.nl/disgeo/dll/)
+
+In dit onderzoek had een van de hoofdconclusies betrekking op de [samenhang tussen objecten](https://docs.geostandaarden.nl/disgeo/dll/#samenhang-tussen-objecten)
+
+Datasets zijn in de huidige praktijk meestal niet gekoppeld. Bijvoorbeeld bevatten veel registraties, in plaats van een BAG identifier, nog velden waar adressen als tekst zijn opgenomen. Deze adressen matchen niet 100% met de BAG.
+
+Om de objectenregistraties in samenhang te kunnen bevragen, is het een basisvoorwaarde dat de datasets op het niveau van individuele objecten aan elkaar gekoppeld zijn met behulp van identifiers. Bij voorkeur zijn deze opgenomen in de vorm van URIs.
+
+*Aanbeveling*: Regel de governance voor het eenmalig leggen en vervolgens beheren van deze links - dit kost tijd en geld.
+
+*Aanbeveling*: Regel de governance over de semantiek van de verbindingen.
+
+*Aanbeveling*: Leg afspraken over het vormen en beheren van URIs vast in een landelijke URI strategie of bredere linked data strategie, gebaseerd op de [NLURIStrategie] die hier al een aanzet voor biedt.
+
+*Aanbeveling*: Laat APIs verplicht verwijzen naar identifiers uit de samenhangende objectenregistratie als die relaties er zijn. Laat in Linked Data in die gevallen de URIs uit de samenhangende objectenregistratie opnemen.
+
+Daarnaast wer der nog een [overweging voor vervolg](https://docs.geostandaarden.nl/disgeo/dll/#overweging-voor-vervolg) gegeven.
+De semantische relaties van de samenhangende objectenregistratie (opvolger van de stelselcatalogus, in ieder geval voor de geo-basisregistraties) moeten altijd gerelateerd zijn aan het semantische model van de datasets. Dit is een relatief eenvoudig te zetten stap die helpt om de orchestratielaag compact en beheersbaar te houden.
+
+
+[DiSGeo High 5 2020](https://docs.geostandaarden.nl/disgeo/dll2/)
+In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wederom geconstateerd dat het aan governance op de koppelvlakken ontbrak bj de use cases die gebruikt werden. Door verschil in definities was er bijvoorbeeld kans op mis-interpretaties.
+
+[DiSGeo High 5 2021](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/)
+Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang wordt gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
+Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
+
+
+
 
 ## iGO
 TODO beschrijven [integrale gebruiksoplossing](https://labs.kadaster.nl/cases/integralegebruiksoplossing) Kadaster
