@@ -4,10 +4,9 @@ Er is behoefte aan samenhangende gegevens vanuit verschillende hoeken. Dit hoofd
 ## DiSGeo
 
 In de hoofdlijnen van de inhoud van de samenhangende objectenregistratie zijn een aantal [algemene uitgangsunten](https://docs.geostandaarden.nl/disgeo/def-al-hiso-20200617/#algemene-uitgangspunten-samenhangende-objectenregistratie) geformuleerd. Het 2e uitgangspunt benadrukt het belang van semantische harmonie. 
-Dit is vervolgens als [ontwerpprincipe](https://docs.geostandaarden.nl/disgeo/emso/#definiering) opgenomen in het document met eisen aan het model van de samenhangewnde objectenregistratie.
+Dit is vervolgens als [ontwerpprincipe](https://docs.geostandaarden.nl/disgeo/emso/#definiering) opgenomen in het document met eisen aan het model van de samenhangende objectenregistratie:
 
-<div class='note'>
-**Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities**
+**Ontwerpprincipe: Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities**
 
 Het is van groot belang dat de basis van een informatiemodel voor een samenhangende objectenregistratie wordt gevormd door een aantal onderling goed afgestemde en heldere definities. In de bestaande basisregistraties is daarvan momenteel niet altijd sprake. Hierdoor wordt de onderlinge koppelbaarheid van gegevens beperkt en laat de uniformiteit van de opgenomen gegevens (door interpretatieverschillen of in de definities opgenomen vrijheidsgraden) nogal eens te wensen over. Bij de verdere uitwerking van de inhoud van een samenhangende objectenregistratie worden bestaande definities daarom zodanig uitgebreid en geharmoniseerd dat:
 
@@ -15,7 +14,7 @@ Het is van groot belang dat de basis van een informatiemodel voor een samenhange
 - definities elkaar semantisch niet overlappen;
 - er niet langer gebruik wordt gemaakt van verzamelclassificaties;
 - een optimale aansluiting op overkoepelende modellen en sectorale modellen wordt gerealiseerd, zoals NEN 3610 (Basismodel Geo-informatie) en NEN 2660 (Ordeningsregels voor gegevens in de bouw - Termen, definities en algemene regels)
-</div>
+
 
 In de Samenhangende Objectenregistratie worden de geo-basisregistraties zodanig omgevormd dat ze voor een gebruiker als één semantisch geheel te beschouwen zijn.
 
