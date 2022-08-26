@@ -34,8 +34,11 @@ In de beginfase van de CB-NL - alweer zo'n 8 jaar geleden - heeft Geonovum meege
 ## Afstudeeronderzoek
 TODO beschrijven afstudeeronderzoek van Gabriella [Towards the linking of geospatial government data](https://repository.tudelft.nl/islandora/object/uuid:f02e513c-bbb4-4b19-813b-4b5a062725d0?collection=education).
 
-## DiS Geo: Eisen aan model samenhangende objectenregistratie
+## DiSGeo: Eisen aan model samenhangende objectenregistratie
 TODO beschrijven [EMSO](https://docs.geostandaarden.nl/disgeo/emso/)
+
+## DiSGeo Architectuur
+In de architectuur van DisGeo wordt het belang van semantische interoperabilitiet ook benadrukt. Bij de [niet-functionele eisen](https://docs.geostandaarden.nl/disgeo/arch/#niet-functionele-eisen) wordt aangegeven dat de eisen aan compatibiliteit onder andere de interoperabiliteit betreffen. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk maken de eisen aan interoperabiliteit van ICT-componenten en services mogelijk dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle (overheids)organisaties met dezelfde basisgegevens kunnen werken.
 
 ## DiSGeo High 5 serie
 
