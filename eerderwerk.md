@@ -91,6 +91,6 @@ gebruik.
 
 
 <figure>
-    <img alt="IGO - Integrale Gebruiks Oplossing" src="https://docs.geostandaarden.nl/disgeo/emso/media/igo.png">
+    <img alt="IGO - Integrale Gebruiks Oplossing" src="media/igo.png">
     <figcaption>Integrale Gebruiks Oplossing</figcaption>
 </figure>
