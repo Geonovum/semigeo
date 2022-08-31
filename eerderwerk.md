@@ -53,10 +53,10 @@ In de beginfase van de CB-NL - alweer zo'n 8 jaar geleden - heeft Geonovum meege
 TODO beschrijven afstudeeronderzoek van Gabriella [Towards the linking of geospatial government data](https://repository.tudelft.nl/islandora/object/uuid:f02e513c-bbb4-4b19-813b-4b5a062725d0?collection=education).
 
 ## DiSGeo: Eisen aan model samenhangende objectenregistratie
-Het document 'Eisen aan het model van de samenhangnden objectenregistratie'[EMSO](https://docs.geostandaarden.nl/disgeo/emso/) is in 2021 opgesteld door een werkgroep onder leiding van BZK en is een uitwerking om in de behoefte te voorzien uit het vorige hoofdstuk om met name de semantische interoperabiliteit tussen de geobasisregistraties te verbeteren in het belang van de gebruikers.
+Het document 'Eisen aan het model van de samenhangnden objectenregistratie' [EMSO](https://docs.geostandaarden.nl/disgeo/emso/) is in 2021 opgesteld door een werkgroep onder leiding van BZK en is een uitwerking om in de behoefte te voorzien uit het vorige hoofdstuk om met name de semantische interoperabiliteit tussen de geobasisregistraties te verbeteren in het belang van de gebruikers.
 
 ## DiSGeo Architectuur
-In de architectuur van DisGeo wordt het belang van semantische interoperabilitiet ook benadrukt. Bij de [niet-functionele eisen](https://docs.geostandaarden.nl/disgeo/arch/#niet-functionele-eisen) wordt aangegeven dat de eisen aan compatibiliteit onder andere de interoperabiliteit betreffen. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk maken de eisen aan interoperabiliteit van ICT-componenten en services mogelijk dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle (overheids)organisaties met dezelfde basisgegevens kunnen werken.
+In de architectuur van DisGeo wordt het belang van semantische interoperabiliteit ook benadrukt. Bij de [niet-functionele eisen](https://docs.geostandaarden.nl/disgeo/arch/#niet-functionele-eisen) wordt aangegeven dat de eisen aan compatibiliteit onder andere de interoperabiliteit betreffen. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk maken de eisen aan interoperabiliteit van ICT-componenten en services mogelijk dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle (overheids)organisaties met dezelfde basisgegevens kunnen werken.
 
 ## DiSGeo High 5 serie
 
@@ -70,16 +70,12 @@ Datasets zijn in de huidige praktijk meestal niet gekoppeld. Bijvoorbeeld bevatt
 
 Om de objectenregistraties in samenhang te kunnen bevragen, is het een basisvoorwaarde dat de datasets op het niveau van individuele objecten aan elkaar gekoppeld zijn met behulp van identifiers. Bij voorkeur zijn deze opgenomen in de vorm van URIs.
 
-*Aanbeveling*: Regel de governance voor het eenmalig leggen en vervolgens beheren van deze links - dit kost tijd en geld.
-
-*Aanbeveling*: Regel de governance over de semantiek van de verbindingen.
-
-*Aanbeveling*: Leg afspraken over het vormen en beheren van URIs vast in een landelijke URI strategie of bredere linked data strategie, gebaseerd op de [NLURIStrategie] die hier al een aanzet voor biedt.
-
-*Aanbeveling*: Laat APIs verplicht verwijzen naar identifiers uit de samenhangende objectenregistratie als die relaties er zijn. Laat in Linked Data in die gevallen de URIs uit de samenhangende objectenregistratie opnemen.
-
-Daarnaast wer der nog een [overweging voor vervolg](https://docs.geostandaarden.nl/disgeo/dll/#overweging-voor-vervolg) gegeven.
-De semantische relaties van de samenhangende objectenregistratie (opvolger van de stelselcatalogus, in ieder geval voor de geo-basisregistraties) moeten altijd gerelateerd zijn aan het semantische model van de datasets. Dit is een relatief eenvoudig te zetten stap die helpt om de orchestratielaag compact en beheersbaar te houden.
+*Aanbevelingen die in dit onderzoek wergden gedaan:*
+- Regel de governance voor het eenmalig leggen en vervolgens beheren van deze links - dit kost tijd en geld.
+- Regel de governance over de semantiek van de verbindingen.
+- Leg afspraken over het vormen en beheren van URIs vast in een landelijke URI strategie of bredere linked data strategie, gebaseerd op de [NLURIStrategie] die hier al een aanzet voor biedt.
+- Laat APIs verplicht verwijzen naar identifiers uit de samenhangende objectenregistratie als die relaties er zijn. Laat in Linked Data in die gevallen de URIs uit de samenhangende objectenregistratie opnemen.
+- Daarnaast werd er nog een [overweging voor vervolg](https://docs.geostandaarden.nl/disgeo/dll/#overweging-voor-vervolg) gegeven. De semantische relaties van de samenhangende objectenregistratie (opvolger van de stelselcatalogus, in ieder geval voor de geo-basisregistraties) moeten altijd gerelateerd zijn aan het semantische model van de datasets. Dit is een relatief eenvoudig te zetten stap die helpt om de orchestratielaag compact en beheersbaar te houden.
 
 
 ### [DiSGeo High 5 2020](https://docs.geostandaarden.nl/disgeo/dll2/)
