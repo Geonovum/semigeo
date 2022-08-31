@@ -70,7 +70,7 @@ Datasets zijn in de huidige praktijk meestal niet gekoppeld. Bijvoorbeeld bevatt
 
 Om de objectenregistraties in samenhang te kunnen bevragen, is het een basisvoorwaarde dat de datasets op het niveau van individuele objecten aan elkaar gekoppeld zijn met behulp van identifiers. Bij voorkeur zijn deze opgenomen in de vorm van URIs.
 
-*Aanbevelingen die in dit onderzoek wergden gedaan:*
+*Aanbevelingen die in dit onderzoek werden gedaan:*
 - Regel de governance voor het eenmalig leggen en vervolgens beheren van deze links - dit kost tijd en geld.
 - Regel de governance over de semantiek van de verbindingen.
 - Leg afspraken over het vormen en beheren van URIs vast in een landelijke URI strategie of bredere linked data strategie, gebaseerd op de [NLURIStrategie] die hier al een aanzet voor biedt.
