@@ -21,6 +21,24 @@ We wilden in de conceptenbibliotheek de begrippen uit alle NEN 3610 sectormodell
 
 De conceptenbibliotheek is er wel gekomen, maar lang niet alle beheerders van sectormodellen hadden interesse om deel te nemen. De mogelijkheid om relaties te leggen tussen begrippen uit verschillende domeinen is er nooit gekomen. 
 
+## NEN 3610
+
+De laatste versie van NEN 3610 is NEN3610:2022
+
+NEN 3610:2022  zegt ondermeer het volgende:
+- Het doel van NEN 3610 is het vergroten van de semantische interoperabiliteit in de uitwisseling en het gebruik van geo-informatie. Semantische interoperabiliteit wordt gerealiseerd door het harmoniseren van termen en definities gehanteerd door verschillende sectoren en door een gemeenschappelijke reeks van regels, concepten enmodelleerpatronen voor het modelleren van de geografische werkelijkheid. NEN 3610 biedt een basis voor verdere uitwerking in sectorale modellen waardoor interoperabiliteit mogelijk wordt voor uitwisseling van geo-informatie binnen en tussen sectoren.
+- Semantiek gaat niet alleen over interoperabiliteit binnen één domein of ketenuitwisseling maar is bij een brede informatievoorziening ook tussen domeinen van belang. Er is daarom steeds meer aandacht voor een systematische publicatie van semantiek in verschillende architectuurcomponenten. Het informatiemodel is een van die componenten maar maakt ook hergebruik van andere. Een aspect daarvan is een relatie tussen een informatiemodel en een gedeeld en centraal ontsloten begrippenkader. Deze nieuwe editie benoemt die relatie. Geoinformatie is steeds meer een informatiedomein dat geïntegreerd wordt met het reguliere informatiedomein. Vanuit het informatieperspectief is geo-informatie een eigenschap van een object. Dit maakt een geo-informatiemodel conceptueel niet anders dan een normaal informatiemodel. Om deze reden conformeert deze editie aan MIM, het algemene metamodel voor informatiemodellering.
+- Het semantische deel van NEN 3610 is gebaseerd op een integratie op hoog abstractieniveau van sectorale (geo-)informatiemodellen. Het vormt daarmee een conceptueel (abstract) model van de geografische werkelijkheid.
+- De norm positioneert informatiemodellen in het bredere kader van een open en toegankelijke semantische architectuur bestaande uit begrippenkaders, informatiemodellen, ontologieën en daarvoor ontworpen registers
+
+## NEN 2660
+
+NEN2660 gaat over regels voor (semantische) informatiemodellering in de gebouwde omgeving. 
+- Het toepassingsgebied is primair het opstellen van conceptuele modellen met betrekking tot het gebruik en de gehele levenscyclus van de gebouwde omgeving en de elementen daarin. De norm legt de basis voor de uitwerking van informatiesystemen waarin gegevens zo worden geordend en beheerd dat die gegevens gedurende de totale levensfase van elementen uit de gebouwde omgeving actueel, correct en onderling consistent zijn. Semantische samenhang en interoperabiliteit tussen modellen staan hierbij voorop.
+- Relatie met NEN 3610: NEN 2660 kent eenzelfde doel als NEN 3610: semantische samenhang en interoperabiliteit tussen modellen en tussen registraties. Voor NEN 3610 is de uitwerking meer gericht op toepassing in sectorale informatiemodellen. Algemene modelleringsprincipes die in NEN 2660 worden uitgewerkt, zijn voor NEN 3610 deels uitgangspunten of aannames zonder dat die zelf worden beschreven. NEN 3610 gebruikt concepten van NEN 2660 in het semantische model. Afstemming tussen NEN 2660 en NEN 3610 zorgt voor een sterke relatie tussen het asset- en systems-engineeringdomein en het geodomein en bevordert interoperabiliteit tussen aan die domeinen gerelateerde registraties.
+
+
+
 ## CB-NL
 Voor efficiëntere BIM-processen wordt de [CB-NL](https://public.cbnl.org) ontwikkeld, de Nederlandse Conceptenbibliotheek voor de gebouwde omgeving. De CB-NL (een initiatief van de BouwInformatieRaad (BIR)) wordt een digitale semantische bibliotheek: een verzameling van taaldefinities van objecten en ruimtes die uniformerend werken tussen bestaande standaarden, normen en object-/productbibliotheken. Deze bibliotheek wordt gratis toegankelijk via het internet. De CB-NL wordt de verbinder tussen bronnen, zoals die van RAW, STABU, NEN, IMGeo, ETIM en Rioned. Het is dus géén nieuwe producten- of objectenbibliotheek erbij, maar een intermediair tussen bestaande bibliotheken.
 
