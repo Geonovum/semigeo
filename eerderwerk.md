@@ -85,6 +85,10 @@ In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wedero
 Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang wordt gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
 Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
 
+<figure>
+    <img alt="IGO - Integrale Gebruiks Oplossing" src="media/igo.png">
+    <figcaption>Integrale Gebruiks Oplossing</figcaption>
+</figure>
 
 
 
@@ -105,6 +109,16 @@ gebruik.
 
 
 <figure>
-    <img alt="IGO - Integrale Gebruiks Oplossing" src="media/igo.png">
-    <figcaption>Integrale Gebruiks Oplossing</figcaption>
+    <img alt=""" src="media/high5-2021-3.png">
+    <figcaption> </figcaption>
+</figure>
+
+<figure>
+    <img alt=""" src="media/high5-2021-1.png">
+    <figcaption> </figcaption>
+</figure>
+
+<figure>
+    <img alt=""" src="media/high5-2021-2.png">
+    <figcaption> </figcaption>
 </figure>
