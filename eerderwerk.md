@@ -106,19 +106,18 @@ hebben ze oplossingen gebouwd voor specifiek integraal gebruik.
 Maar er zijn niet of nauwelijks oplossingen bebouwd voor generiek integraal
 gebruik.
 
-
-
 <figure>
-    <img alt=""" src="media/high5-2021-3.png">
-    <figcaption> </figcaption>
+    <img alt="samenhang" src="media/high5-2021-3.png">
+    <figcaption>samenhang</figcaption>
 </figure>
 
 <figure>
-    <img alt=""" src="media/high5-2021-1.png">
-    <figcaption> </figcaption>
+    <img alt="" src="media/high5-2021-1.png">
+    <figcaption>probleem</figcaption>
 </figure>
 
 <figure>
-    <img alt=""" src="media/high5-2021-2.png">
-    <figcaption> </figcaption>
+    <img alt="resultaten" src="media/high5-2021-2.png">
+    <figcaption>resultaten</figcaption>
 </figure>
+
