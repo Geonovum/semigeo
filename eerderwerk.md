@@ -86,13 +86,9 @@ In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wedero
 
 ### [DiSGeo High 5 2021](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/)
 
-<aside class="issue">Overeenkomst / verschil aangeven met vorige high 5. Eigenlijk was het een herhaling van zetten, maar met een andere technische invulling.
+<aside class="issue">CHECK : Overeenkomst / verschil aangegeven met vorige high 5. -
 
-Aanvullen met concretere info en kijken of er nog meer over de inzichten te melden is. </aside>
-
-Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang werd gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
-Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
-
+Aangevuld met concretere info door meer nog meer over de inzichten te melden. </aside>
 
 
 <figure>
@@ -100,15 +96,46 @@ Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/di
     <figcaption>samenhang</figcaption>
 </figure>
 
+Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. 
+Anders dan bij de vorige onderzoeken lag in dit onderzoek  de nadruk op de registratieketens. We gaan van losse registraties met verzuilde ketens naar samenhangende gegevensobjecten. Op deze manier worden gebruikers niet belast met de manier waarop organisaties de data verwerkt hebben voor hun interne processen.
+
+
 <figure>
     <img alt="probleem" src="media/high5-2021-1.png">
     <figcaption>probleem</figcaption>
 </figure>
 
+De samenhang werd gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
+Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
+
+Aan de hand van het voorbeeld van een gebouw is een en ander beproefd. 
+In de huidige basis- en sectorregistraties zijn er veel gegevens te vinden over een "gebouw". Als input voor deze High-5 zijn de informatiemodellen van deze registraties geselecteerd:
+- BAG
+- BGT
+- EPBD - Energielabels
+
+In onderstaand plaatje hebben we getracht om deze te combineren tot één informatiemodel.
+
+<figure>
+    <img alt="gebouw" src="media/high5-2021-4.png">
+    <figcaption>gebouw</figcaption>
+</figure>
+
+
 <figure>
     <img alt="resultaat" src="media/high5-2021-2.png">
     <figcaption>resultaat</figcaption>
 </figure>
+
+Dit heeft onder meer tot de volgende inzichten geleid die in dit kader relevant zijn:
+
+- Om de geo-basisregistraties in samenhang te kunnen gebruiken, moeten we gegevens uit de huidige basisregistraties combineren. Dit lijkt vaak eenvoudiger dan het is. Zelfs wanneer dezelfde terminologie wordt gebruikt bij het specificeren van modelelementen, zijn er vaak nog subtiele verschillen in de definities hiervan. Begrippen zijn soms anders afgebakend – dit geldt dus ook voor data die hierop gebaseerd is. Om deze reden kunnen informatieobjecten/gegevens afkomstig van verschillende registraties niet zomaar over elkaar gelegd worden, ook al worden ze beschreven door dezelfde termen.
+- Hoewel het samenvoegen van de registratiemodellen niet direct tot een samenhangend geheel zal leiden, kan hiernaartoe gewerkt worden middels een aantal modelleerprincipes. Deze principes vertalen zich in modelleerpatronen voor object centraal modelleren.
+- Voor afnemers is het van belang dat gegevens en modellering er hetzelfde uitzien, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de SOR gestandaardiseerd, maar voor andere bronnen nog niet.
+- De orchestratielaag is het intelligente hart van de architectuur: wat we aan het begin van deze High-5 serie de 'semantische laag' noemden. De orchestratielaag regelt de aggregatie van één of meerdere onderliggende services. Deze services kunnen fysiek bij verschillende organisaties worden gehost zodat een federatief systeem mogelijk is. Als gebruiker hoef je geen kennis te hebben van de onderliggende systemen
+- Hoewel er allerlei uitdagingen zijn, is gebleken dat de op transponering gebaseerde architectuur werkt. De data kan bij de bron blijven. We doen geen getransformeerde data opslag maar orchestratie on the fly, en het is toch mogelijk om data af te nemen als stroom uit het stopcontact op verschillende manieren.
+- Het bleek mogelijk om bij de transponering van gegevens slim gebruik te maken van relaties tussen begrippen in het begrippenkader van de SOR. Dit is toegepast bij de transponering van gegevens over levenscyclus (status). Het begrippenkader is uitgedrukt in SKOS, en dit biedt mogelijkheden om semantische relaties te leggen tussen begrippenkaders. Wat we gedaan hebben is de status begrippen uit het SOR begrippenkader verbinden met de overeenkomstige begrippen van BAG en BGT (die ook gepubliceerde begrippenkaders hebben) door middel van mapping relaties. De orchestratielaag kon deze relaties tussen begrippen gebruiken voor de transponering en de Lookup API kan daardoor gegeven een SOR status een BAG status vinden of gegeven een BAG status een SOR status teruggeven.
+
 
 ## IGO
 Er is in 2021 een eerste eenvoudige oplossing (MVP) door het Kadaster ontwikkeld voor
