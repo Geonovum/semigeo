@@ -85,26 +85,7 @@ In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wedero
 Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang wordt gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
 Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
 
-<figure>
-    <img alt="IGO - Integrale Gebruiks Oplossing" src="media/igo.png">
-    <figcaption>Integrale Gebruiks Oplossing</figcaption>
-</figure>
 
-
-
-## IGO
-Er is in 2021 een eerste eenvoudige oplossing (MVP)door het Kadaster ontwikkeld voor
-integraal gebruik van de GEO basisregistraties, maar ook als voorproefje van de komende
-‘Objectenregistratie’ (SOR), een [integrale gebruiksoplossing](https://labs.kadaster.nl/cases/integralegebruiksoplossing)  vanwege het feit dat gebruikers steeds vaker en steeds meer behoefte hebben aan integraal
-gebruik van data uit verschillende basisregistraties. Dat blijkt uit alle onderzoeken,
-gebruikersoverleggen en dagelijkse contacten die men met gebruikers heeft. 
-Het Stelsel van basisregistraties is daar echter niet op ingericht, want data zitten verankerd
-in de specifieke registraties. Die ieder voor zich en op een andere manier
-bruikbaar zijn. M.a.w. niet de data, maar de registraties staan centraal.
-Omdat overheden voor veel processen toch integrale data nodig hebben,
-hebben ze oplossingen gebouwd voor specifiek integraal gebruik.
-Maar er zijn niet of nauwelijks oplossingen bebouwd voor generiek integraal
-gebruik.
 
 <figure>
     <img alt="samenhang" src="media/high5-2021-3.png">
@@ -121,3 +102,23 @@ gebruik.
     <figcaption>resultaten</figcaption>
 </figure>
 
+
+## IGO
+Er is in 2021 een eerste eenvoudige oplossing (MVP)door het Kadaster ontwikkeld voor
+integraal gebruik van de GEO basisregistraties, maar ook als voorproefje van de komende
+‘Objectenregistratie’ (SOR), een [integrale gebruiksoplossing](https://labs.kadaster.nl/cases/integralegebruiksoplossing)  vanwege het feit dat gebruikers steeds vaker en steeds meer behoefte hebben aan integraal
+gebruik van data uit verschillende basisregistraties. Dat blijkt uit alle onderzoeken,
+gebruikersoverleggen en dagelijkse contacten die men met gebruikers heeft. 
+Het Stelsel van basisregistraties is daar echter niet op ingericht, want data zitten verankerd
+in de specifieke registraties. Die ieder voor zich en op een andere manier
+bruikbaar zijn. M.a.w. niet de data, maar de registraties staan centraal.
+Omdat overheden voor veel processen toch integrale data nodig hebben,
+hebben ze oplossingen gebouwd voor specifiek integraal gebruik.
+Maar er zijn niet of nauwelijks oplossingen bebouwd voor generiek integraal
+gebruik.
+
+
+<figure>
+    <img alt="IGO - Integrale Gebruiks Oplossing" src="media/igo.png">
+    <figcaption>Integrale Gebruiks Oplossing</figcaption>
+</figure>
