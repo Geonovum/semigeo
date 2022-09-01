@@ -3,6 +3,8 @@ Geonovum heeft door de jaren heen al eerdere pogingen gedaan om aan semantische 
 
 Een overzicht. 
 
+<aside class="issue">De meeste paragrafen in dit hoofdstuk moeten nog aangescherpt worden: het gaat in dit hoofdstuk om wat er al gedaan is, wat al bekend is, ervaringen die al zijn opgedaan. </aside>
+
 ## Conceptenbibliotheek
 De [conceptenbibliotheek](https://definities.geostandaarden.nl) is ontstaan uit het idee om een harmonisatieslag te gaan doen op de raakvlakken tussen domeinmodellen. 
 
@@ -49,18 +51,19 @@ In de beginfase van de CB-NL - alweer zo'n 8 jaar geleden - heeft Geonovum meege
     <figcaption>De CBNL definitie van het concept <a href="http://ont.cbnl.org/cb/def/CB01662">Brugdek</figcaption>
 </figure>
 
+
 ## Afstudeeronderzoek
 TODO beschrijven afstudeeronderzoek van Gabriella [Towards the linking of geospatial government data](https://repository.tudelft.nl/islandora/object/uuid:f02e513c-bbb4-4b19-813b-4b5a062725d0?collection=education).
 
 ## DiSGeo: Eisen aan model samenhangende objectenregistratie
-Het document 'Eisen aan het model van de samenhangnden objectenregistratie' [EMSO](https://docs.geostandaarden.nl/disgeo/emso/) is in 2021 opgesteld door een werkgroep onder leiding van BZK en is een uitwerking om in de behoefte te voorzien uit het vorige hoofdstuk om met name de semantische interoperabiliteit tussen de geobasisregistraties te verbeteren in het belang van de gebruikers.
+Het document 'Eisen aan het model van de samenhangende objectenregistratie' [EMSO](https://docs.geostandaarden.nl/disgeo/emso/) is in 2021 opgesteld door een werkgroep onder leiding van BZK en is een uitwerking om in de behoefte te voorzien uit het vorige hoofdstuk om met name de semantische interoperabiliteit tussen de geobasisregistraties te verbeteren in het belang van de gebruikers.
 
 ## DiSGeo Architectuur
 In de architectuur van DisGeo wordt het belang van semantische interoperabiliteit ook benadrukt. Bij de [niet-functionele eisen](https://docs.geostandaarden.nl/disgeo/arch/#niet-functionele-eisen) wordt aangegeven dat de eisen aan compatibiliteit onder andere de interoperabiliteit betreffen. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk maken de eisen aan interoperabiliteit van ICT-componenten en services mogelijk dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle (overheids)organisaties met dezelfde basisgegevens kunnen werken.
 
 ## DiSGeo High 5 serie
 
-In het kader van DisGeo zijn meerdere onderzoeken uitgevoerd waar ook de semantische harmonisatie aan de orde kwam. Een aantal relvante bevindingen worden hier nogmaals aangestipt:
+In het kader van DisGeo zijn meerdere onderzoeken uitgevoerd waar ook de semantische harmonisatie aan de orde kwam. Een aantal relevante bevindingen worden hier nogmaals aangestipt:
 
 ### [DiSGeo High 5 2019](https://docs.geostandaarden.nl/disgeo/dll/)
 
@@ -79,32 +82,36 @@ Om de objectenregistraties in samenhang te kunnen bevragen, is het een basisvoor
 
 
 ### [DiSGeo High 5 2020](https://docs.geostandaarden.nl/disgeo/dll2/)
-In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wederom geconstateerd dat het aan governance op de koppelvlakken ontbrak bj de use cases die gebruikt werden. Door verschil in definities was er bijvoorbeeld kans op mis-interpretaties.
+In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wederom geconstateerd dat het aan governance op de koppelvlakken ontbrak bij de use cases die gebruikt werden. Door verschil in definities was er bijvoorbeeld kans op mis-interpretaties.
 
 ### [DiSGeo High 5 2021](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/)
-Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang wordt gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
+
+<aside class="issue">Overeenkomst / verschil aangeven met vorige high 5. Eigenlijk was het een herhaling van zetten, maar met een andere technische invulling.
+
+Aanvullen met concretere info en kijken of er nog meer over de inzichten te melden is. </aside>
+
+Dit onderzoek had het doel te beproeven of het mogelijk is de basisregistraties in samenhang te bevragen, waarbij deze samenhang nog niet in de data (in de vorm van relaties tussen instanties) aanwezig is, en zonder de onderliggende registraties of de data die daarin staan aan te passen. De samenhang werd gerealiseerd door een samenhangende, integrale semantische laag die ervoor zorgt dat vragen over registraties heen kunnen worden gesteld en beantwoord. 
 Er werd daarbij een [aanbeveling tot koppelen](https://docs.geostandaarden.nl/disgeo/def-al-dll3a-20220211/#aanbevelingen-met-betrekking-tot-koppelen) gedaan, waarbij aangegeven werd dat het voor afnemers van belang is dat gegevens en modellering er hetzelfde uitziet, zodat afnemers het geheel ook ervaren als een samenhangend stelsel. Dit wordt voor de samenhangende objectenregistratie gestandaardiseerd, maar voor andere bronnen nog niet.
 
-
+<aside class="issue">Afbeeldingen werken niet</aside>
 
 <figure>
-    <img alt="samenhang" src="media/high5-2021-3.png">
-    <figcaption>samenhang</figcaption>
+    <img alt=""" src="media/high5-2021-3.png">
+    <figcaption> </figcaption>
 </figure>
 
 <figure>
-    <img alt="" src="media/high5-2021-1.png">
-    <figcaption>probleem</figcaption>
+    <img alt=""" src="media/high5-2021-1.png">
+    <figcaption> </figcaption>
 </figure>
 
 <figure>
-    <img alt="resultaten" src="media/high5-2021-2.png">
-    <figcaption>resultaten</figcaption>
+    <img alt=""" src="media/high5-2021-2.png">
+    <figcaption> </figcaption>
 </figure>
-
 
 ## IGO
-Er is in 2021 een eerste eenvoudige oplossing (MVP)door het Kadaster ontwikkeld voor
+Er is in 2021 een eerste eenvoudige oplossing (MVP) door het Kadaster ontwikkeld voor
 integraal gebruik van de GEO basisregistraties, maar ook als voorproefje van de komende
 ‘Objectenregistratie’ (SOR), een [integrale gebruiksoplossing](https://labs.kadaster.nl/cases/integralegebruiksoplossing)  vanwege het feit dat gebruikers steeds vaker en steeds meer behoefte hebben aan integraal
 gebruik van data uit verschillende basisregistraties. Dat blijkt uit alle onderzoeken,
@@ -116,7 +123,6 @@ Omdat overheden voor veel processen toch integrale data nodig hebben,
 hebben ze oplossingen gebouwd voor specifiek integraal gebruik.
 Maar er zijn niet of nauwelijks oplossingen bebouwd voor generiek integraal
 gebruik.
-
 
 <figure>
     <img alt="IGO - Integrale Gebruiks Oplossing" src="media/igo.png">
