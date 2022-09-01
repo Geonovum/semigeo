@@ -65,12 +65,24 @@ var respecConfig =
   edDraftURI: "https://lvdbrink.github.io/semigeo/",
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
+  editors: 
+ [
+    {
+      name:       "Linda van den Brink",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    }, 
+  ],
   authors: 
  [
     {
       name:       "Linda van den Brink",
- //     company:    "-",
-  //    companyURL: "-"
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    }, {
+      name:       "Dick Krijtenburg",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
     }, 
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
