@@ -58,11 +58,11 @@ var respecConfig =
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2019-10-08",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/lvdbrink/semigeo",
+  github: "https://github.com/geonovum/semigeo",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/lvdbrink/semigeo/issues",
+  issueBase: "https://github.com/geonovum/semigeo/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://lvdbrink.github.io/semigeo/",
+  edDraftURI: "https://geonovum.github.io/semigeo/",
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: 
