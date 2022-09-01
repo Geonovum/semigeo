@@ -89,7 +89,7 @@ In dit onderzoek wat een follow-up was van het voornoemde onderzoek, werd wedero
 <aside class="issue">CHECK : Overeenkomst / verschil aangegeven met vorige high 5. -
 
 Aangevuld met concretere info door meer nog meer over de inzichten te melden. </aside>
-
+  
 
 <figure>
     <img alt="samenhang" src="media/high5-2021-3.png">
